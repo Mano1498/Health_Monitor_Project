@@ -14,8 +14,8 @@ import sklearn
 print(sklearn.__version__)
 
 # Load the trained model and scaler
-sc = joblib.load('C:/Users/ranja/OneDrive/Documents/Health_Care_Project/hstd.joblib')
-dtc = joblib.load('C:/Users/ranja/OneDrive/Documents/Health_Care_Project/hdtc.joblib')  # Replace with the actual filename of your model
+sc = joblib.load('hstd.joblib')
+dtc = joblib.load('hdtc.joblib')  # Replace with the actual filename of your model
 
 # Function to preprocess and predict
 def calculate_bmi(weight, height):
